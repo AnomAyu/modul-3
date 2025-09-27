@@ -6,15 +6,22 @@
     <title>Profile Diri</title>
 </head>
 <body>
+    <!--Menggunakan Div untuk membagi elemen dan terstruktur-->
     <div>
+        <!--H1 untuk membuat tulisan heading judul dari bagian-->
         <h1>Profil Diri</h1>
+         <!-- Table: digunakan untuk menampilkan data dalam format baris dan kolom menggunakn tabel karena ingin menampilakn foto dan video-->
         <table border="1" cellpadding ="10">
             <tr>
+                <!-- th: table header digunakan untuk judul kolom -->
                 <th>Foto Profile</th>
                 <th>Video Perkenalan</th>
             </tr>
             <tr>
+                <!-- Img: digunakan untuk menampilkan gambar -->
+                <!--Menggunakan td karena mengisi sebuah baris(isi dari kolom)-->
                 <td><img width="250" height="200" src="foto.jpg" alt="foto"></td>
+                <!-- video: digunakan untuk menampilkan video -->
                 <td><video width="250" controls src="video.mp4"></video></td>
             </tr>
         </table>
@@ -50,6 +57,7 @@
 <div>
     <h2>Hubungi Saya</h2>
     <!-- Form untuk kontak -->
+    <!-- Form: digunakan agar pengunjung bisa mengirim pesan -->
     <form>
     <!-- Table dipakai agar label dan input sejajar rapi -->
     <table border="0">
@@ -70,12 +78,12 @@
 
     </tr>
     <tr>
+        <!-- Textarea: digunakan untuk masukan teks panjang -->
          <td><textarea id="pesan" name="pesan" rows="4" cols="30"></textarea>
     </td>
     </tr>
 
     <tr>
-     <!-- td kosong supaya tombol sejajar dengan input -->
      <td><button type="submit">Kirim Pesan</button></td>
      </tr>
     </table>
